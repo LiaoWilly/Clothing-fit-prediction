@@ -8,9 +8,9 @@ A machine learning project that predicts clothing fit based on customer body mea
 **Clothing Fit Prediction System** | Python, Scikit-learn, Pandas, NumPy
 - Developed a machine learning model to predict clothing fit outcomes (small/fit/large) using customer body measurements and product characteristics
 - Analyzed 40,000+ customer reviews from ModCloth and Rent the Runway datasets, processing features including height, weight, bust size, body type, and product categories
-- Implemented and compared multiple ML algorithms: baseline heuristic model (64.7% accuracy), Logistic Regression, and Decision Trees
+- Implemented and compared multiple ML algorithms: baseline heuristic model (64.7% accuracy), logistic regression, and decision trees
 - Performed comprehensive exploratory data analysis and feature engineering on multi-dimensional customer and product data
-- Achieved 82.3% accuracy with optimized Logistic Regression model, representing a 27% improvement over baseline predictions through hyperparameter tuning (C=0.01), feature engineering, and preprocessing
+- Achieved 82.3% accuracy with optimized logistic regression model, representing a 27% improvement over baseline predictions through hyperparameter tuning (C=0.01), feature engineering, and preprocessing
 - Built end-to-end pipeline including data parsing from compressed JSON files, feature extraction, model training, and evaluation
 
 ## Technical Details
@@ -36,14 +36,14 @@ A machine learning project that predicts clothing fit based on customer body mea
 
 3. **Models Implemented**
    - Baseline heuristic model (quartile-based height/weight thresholds)
-   - Logistic Regression classifier
-   - Decision Tree classifier
+   - Logistic regression classifier
+   - Decision tree classifier
 
 4. **Evaluation**
    - Metric: Classification accuracy
    - Train-test split validation
    - Performance comparison across models
-   - Results: Baseline (64.7%) → Optimized Logistic Regression (82.3%)
+   - Results: Baseline (64.7%) → Optimized logistic regression (82.3%)
 
 ### Technologies Used
 - **Programming Language**: Python
@@ -84,7 +84,7 @@ CLOTHING FIT PREDICTION SYSTEM
 Technologies: Python, Scikit-learn, Pandas, NumPy, Jupyter Notebook
 - Built ML classification model to predict whether clothing items fit small, fit, or large based on customer measurements
 - Processed and analyzed 40,000+ customer reviews from fashion e-commerce platforms (ModCloth and Rent the Runway)
-- Implemented Logistic Regression and Decision Tree classifiers with comprehensive feature engineering
+- Implemented logistic regression and decision tree classifiers with comprehensive feature engineering
 - Applied data preprocessing techniques including one-hot encoding and standard scaling
 - Achieved 82.3% accuracy with optimized model, a 27% improvement over baseline heuristic approach (64.7%)
 - Performed hyperparameter tuning and regularization to optimize model performance
